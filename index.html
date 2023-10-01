@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <!--Configuraciones del navegador-->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Boquita El Más Grande</title>
+    <script src="https://kit.fontawesome.com/7f3c0b8352.js" crossorigin="anonymous"></script>
+    <!--favicon boquita-->
+    <link rel="icon" href="favicon.ico" type="image/png">
+    <!--Estilos y Bootstrap-->
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+    <link rel="stylesheet" href="./css/estilos.css">
+</head>
+
+<body>
+    <header class="header"> <!--Cabecera de mi sitio web-->
+        <div class="header__ContenedorLogo">
+            <a href="index.html">
+                <img src="./assets/img/Boca_Logo2.png" alt="Logo">
+            </a>
+        </div>
+        <div>
+            <img src="./assets/img/Copas.png" alt="Copas">
+        </div>
+        <nav class="header__Nav">
+            <ul> <!--TODO: Agregarle color al link del html actual-->
+                <li class="header__Nav__Li"><a class="header__Nav__Li__Link" href="#">Inicio</a></li>
+                <li class="header__Nav__Li"><a class="header__Nav__Li__Link" href="./pages/fixture.html">Fixture</a></li>
+                <li class="header__Nav__Li"><a class="header__Nav__Li__Link" href="./pages/tienda.html">Tienda</a></li>
+                <li class="header__Nav__Li"><a class="header__Nav__Li__Link" href="./pages/galeria.html">Galeria</a></li>
+                <li class="header__Nav__Li"><a class="header__Nav__Li__Link" href="./pages/contacto.html">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section class="fuenteRobotoBold">
+            <div class="centrarTitulo">
+                <h1>Ultimas Noticias</h1>
+            </div>
+        </section>
+        <article class="noticia">
+            <header>
+                <div>
+                    <h1 class="fuenteRobotoBold">Almirón probó un equipo pensando en Almagro</h1>
+                    <h2 class="fuentePtSansRegular">El DT ensayó esta mañana con el posible once</h2>
+                </div>
+            </header>
+            <main>
+                <section class="seccionImg">
+                    <div class="contenedorImg">
+                        <img src="./assets/img/Jorge-Almiron-Boca--780x470_PNG.png" alt="AlmironAlmagro"
+                            class="propiedadesImg" loading="lazy">
+                    </div>
+                </section>
+                <section>
+                    <div class="boxNoticia">
+                        <!--TODO: Poner nombres en negrita-->
+                        <p class="fuenteArimoMedium">Parados en un 4-4-2, la formación fue: Sergio Romero; Marcelo
+                            Weigandt, Nicolás Figal, Marcos Rojo,
+                            Frank Fabra; Ezequiel Bullaude; Guillermo Fernández, Ezequiel Fernández, Lucas Janson;
+                            Exequiel
+                            Zeballos y Darío Benedetto.</p>
+                    </div>
+                </section>
+            </main>
+        </article>
+        <article class="noticia">
+            <header>
+                <div>
+                    <h1 class="fuenteRobotoBold">Boca comenzó la Copa de la Liga con el pie derecho</h1>
+                </div>
+            </header>
+            <main>
+                <section class="seccionImg">
+                    <div class="contenedorImg">
+                        <img src="./assets/img/Boca-Platense.png" alt="BocaPlatense" class="propiedadesImg" loading="lazy">
+                    </div>
+                </section>
+                <section>
+                    <div class="boxNoticia">
+                        <!--TODO: Poner nombres en negrita-->
+                        <p class="fuenteArimoMedium">En su debut en la Copa de la Liga, Boca venció 3-1 a Platense en la
+                            Bombonera con goles de
+                            <span>Zeballos, Cavani y Medina</span>. Morgantini descontó para la visita.</p>
+                    </div>
+                </section>
+            </main>
+        </article>
+        <!--TODO: agregar banners separadores como aside?-->
+    </main>
+    <footer class="imagenFooter footer">
+        <p>&copy; Copyright 2023 - Desarrollado por FB6</p>
+        <div class="wsp">
+            <a href="https://wa.me/5491161523353" target="_blank">
+                <i class="fa-brands fa-whatsapp iconoWsp"></i>
+            </a>
+        </div>
+    </footer>
+    <script src="./js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <!--Configuraciones del navegador-->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Boquita | Contacto</title>
+    <script src="https://kit.fontawesome.com/7f3c0b8352.js" crossorigin="anonymous"></script>
+    <!--favicon boquita-->
+    <link rel="icon" href="../favicon.ico" type="image/png">
+    <!--Estilos y Bootstrap-->
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+    <link rel="stylesheet" href="../css/estilos.css">
+</head>
+
+<body>
+    <header class="header"> <!--Cabecera de mi sitio web-->
+        <div class="header__ContenedorLogo">
+            <a href="../index.html">
+                <img src="../assets/img/Boca_Logo2.png" alt="Logo">
+            </a>
+        </div>
+        <div>
+            <img src="../assets/img/Copas.png" alt="Copas">
+        </div>
+        <nav class="header__Nav">
+            <ul>
+                <li class="header__Nav__Li"><a class="header__Nav__Li__Link" href="../index.html">Inicio</a></li>
+                <li class="header__Nav__Li"><a class="header__Nav__Li__Link" href="./fixture.html">Fixture</a></li>
+                <li class="header__Nav__Li"><a class="header__Nav__Li__Link" href="./tienda.html">Tienda</a></li>
+                <li class="header__Nav__Li"><a class="header__Nav__Li__Link" href="./galeria.html">Galeria</a></li>
+                <li class="header__Nav__Li"><a class="header__Nav__Li__Link" href="#">Contacto</a></li>
+            </ul>                
+        </nav>
+    </header>
+    <main>
+        <section class="fuenteRobotoBold centrarTitulo">
+            <h1>Contacto</h1>
+        </section>
+        <section>
+            <div class="fuentePtSansRegular">
+                <h2>Envianos tu consulta</h2>
+            </div>
+            <form action="./404.html" method="post">
+                <div>
+                    <label for="nombre">Nombre y Apellido</label>
+                </div>
+                <div>
+                    <input type="text" name="nombre" id="nombre" placeholder="Juan Roman" required>
+                    <input type="text" name="apellido" id="apellido" placeholder="Riquelme" required>
+                </div>
+                <div>
+                    <label for="email">Correo Electrónico</label>
+                </div>
+                <div>
+                    <input type="email" name="email" id="email" placeholder="elultimo10@gmail.com" required>
+                </div>
+                <div>
+                    <label for="mensaje">Tu consulta</label>
+                </div>
+                <div>
+                    <textarea name="mensaje" id="mensaje" cols="30" rows="10"></textarea>
+                </div>
+                <div>
+                    <input type="reset" id="restablecer" name="restablecer" value="Restablecer">
+                </div>
+                <div>
+                    <input type="submit" id="enviar" name="enviar" value="Enviar">
+                </div>
+
+            </form>
+        </section>
+        <section>
+            <h2>Acercate al club</h2>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d210117.81451638072!2d-58.
+                67461570791413!3d-34.627144333762715!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.
+                1!3m3!1m2!1s0x95a334b60f4a88a3%3A0xe46a8844309a763f!2sClub%20Atl%C3%A9tico%20Boca%20Juniors!5e0!3m2!
+                1ses!2sar!4v1693765727739!5m2!1ses!2sar" width="400" height="300" style="border:0;" allowfullscreen=""
+                loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </section>
+
+
+    </main>
+    <footer class="imagenFooter footer">
+        <p>&copy; Copyright 2023 - Desarrollado por FB6</p>
+        <div class="wsp">
+            <a href="https://wa.me/5491161523353" target="_blank">
+                <i class="fa-brands fa-whatsapp iconoWsp"></i>
+            </a>
+        </div>
+    </footer>
+    <script src="./js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
