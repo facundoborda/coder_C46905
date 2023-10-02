@@ -15,26 +15,41 @@
 </head>
 
 <body>
-    <header class="header"> <!--Cabecera de mi sitio web-->
-        <div class="header__ContenedorLogo">
-            <a href="index.html">
+    <header> <!--Cabecera de mi sitio web-->
+        <nav class="navbar navbar-expand-lg fixed-top colorFondoAzul">
+            <div class="container-fluid">
+              <a class="navbar-brand" href="#">
                 <img src="./assets/img/Boca_Logo2.png" alt="Logo">
-            </a>
-        </div>
-        <div>
-            <img src="./assets/img/Copas.png" alt="Copas">
-        </div>
-        <nav class="header__Nav">
-            <ul> <!--TODO: Agregarle color al link del html actual-->
-                <li class="header__Nav__Li"><a class="header__Nav__Li__Link" href="#">Inicio</a></li>
-                <li class="header__Nav__Li"><a class="header__Nav__Li__Link" href="./pages/fixture.html">Fixture</a></li>
-                <li class="header__Nav__Li"><a class="header__Nav__Li__Link" href="./pages/tienda.html">Tienda</a></li>
-                <li class="header__Nav__Li"><a class="header__Nav__Li__Link" href="./pages/galeria.html">Galeria</a></li>
-                <li class="header__Nav__Li"><a class="header__Nav__Li__Link" href="./pages/contacto.html">Contacto</a></li>
-            </ul>
-        </nav>
+              </a>
+              <div>
+                <img src="./assets/img/Copas.png" alt="Copas">
+              </div>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0 w-100 justify-content-end">
+                  <li class="nav-item">
+                    <a class="nav-link active colorAmarillo" aria-current="page" href="#">Inicio</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link colorAmarillo" href="./pages/fixture.html">Fixture</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link colorAmarillo" href="./pages/tienda.html">Tienda</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link colorAmarillo" href="./pages/galeria.html">Galeria</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link colorAmarillo" href="./pages/contacto.html">Contacto</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </nav>
     </header>
-    <main>
+    <main class="padding-top-120">
         <section class="fuenteRobotoBold">
             <div class="centrarTitulo">
                 <h1>Ultimas Noticias</h1>

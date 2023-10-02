@@ -47,20 +47,24 @@
     color: rgb(231, 174, 11);
     font-size: 1rem ;
 }
+
+.colorFondoAzul{
+    background-color: rgb(0, 29, 77);
+}
+
+.padding-top-120{
+    padding-top: 120px;
+}
     
-.header{ /*Fondo azul boquita para el header*/
+/*.header{
     display: flex;
     background-color: rgb(0, 29, 77);
     position: sticky;
     top: 0;
     height: 100px;
-    /*padding-left: 20px;*/
     align-items: center;
     justify-content: space-between;
     .header__ContenedorLogo{
-        /*background-color: red;*/
-        /*display: flex;*/
-        /*display:inline-block;*/
         height: 100px;
         width: 100px; 
         object-fit: cover;
@@ -68,21 +72,21 @@
     .header__Nav{
         list-style: none;
         text-align: right;
-        .header__Nav__Li{ /*Box Modelling para el nav*/
-            display: inline-block; /*iria flex?*/
+        .header__Nav__Li{ 
+            display: inline-block;
             margin-top: 10px;
             margin-bottom: 0px;
             margin-left: 20px;
             margin-right: 20px;
-            .header__Nav__Li__Link{ /*Estilos para los links del navegador*/
+            .header__Nav__Li__Link{ 
                 text-decoration: none;
                 color: rgb(231, 174, 11);
-                /*border: 1px solid rgb(231, 174, 11);*/
+            
                 
             }
         }
     }
-}
+}*/
 
 .centrarTitulo{
     height: 50%;

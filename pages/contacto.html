@@ -10,31 +10,46 @@
     <!--favicon boquita-->
     <link rel="icon" href="../favicon.ico" type="image/png">
     <!--Estilos y Bootstrap-->
-    <link rel="stylesheet" href="./css/bootstrap.min.css">
+    <link rel="stylesheet" href="../css/bootstrap.min.css">
     <link rel="stylesheet" href="../css/estilos.css">
 </head>
 
 <body>
-    <header class="header"> <!--Cabecera de mi sitio web-->
-        <div class="header__ContenedorLogo">
-            <a href="../index.html">
+    <header> <!--Cabecera de mi sitio web-->
+        <nav class="navbar navbar-expand-lg fixed-top colorFondoAzul">
+            <div class="container-fluid">
+              <a class="navbar-brand" href="../index.html">
                 <img src="../assets/img/Boca_Logo2.png" alt="Logo">
-            </a>
-        </div>
-        <div>
-            <img src="../assets/img/Copas.png" alt="Copas">
-        </div>
-        <nav class="header__Nav">
-            <ul>
-                <li class="header__Nav__Li"><a class="header__Nav__Li__Link" href="../index.html">Inicio</a></li>
-                <li class="header__Nav__Li"><a class="header__Nav__Li__Link" href="./fixture.html">Fixture</a></li>
-                <li class="header__Nav__Li"><a class="header__Nav__Li__Link" href="./tienda.html">Tienda</a></li>
-                <li class="header__Nav__Li"><a class="header__Nav__Li__Link" href="./galeria.html">Galeria</a></li>
-                <li class="header__Nav__Li"><a class="header__Nav__Li__Link" href="#">Contacto</a></li>
-            </ul>                
-        </nav>
+              </a>
+              <div>
+                <img src="../assets/img/Copas.png" alt="Copas">
+              </div>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0 w-100 justify-content-end">
+                  <li class="nav-item">
+                    <a class="nav-link colorAmarillo" href="../index.html">Inicio</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link colorAmarillo" href="./fixture.html">Fixture</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link colorAmarillo" href="./tienda.html">Tienda</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link colorAmarillo" href="./galeria.html">Galeria</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link active colorAmarillo" aria-current="page" href="#">Contacto</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </nav>
     </header>
-    <main>
+    <main class="padding-top-120">
         <section class="fuenteRobotoBold centrarTitulo">
             <h1>Contacto</h1>
         </section>
@@ -79,8 +94,6 @@
                 1ses!2sar!4v1693765727739!5m2!1ses!2sar" width="400" height="300" style="border:0;" allowfullscreen=""
                 loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
         </section>
-
-
     </main>
     <footer class="imagenFooter footer">
         <p>&copy; Copyright 2023 - Desarrollado por FB6</p>
