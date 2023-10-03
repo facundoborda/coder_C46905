@@ -122,12 +122,12 @@
     object-fit: cover;
 }
 
-.footer{ /*TODO: agregar un contenedor con justify-content: flex-end para agregar los iconos de redes sociales*/
+.footer{
     color:rgb(0, 29, 77);
     background-color: rgb(0, 29, 77);
     display: flex;
     align-items:flex-end;
-    justify-content: space-between;
+    justify-content: center;
     padding-bottom: 10px;
 }
 
