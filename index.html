@@ -18,100 +18,112 @@
     <header> <!--Cabecera de mi sitio web-->
         <nav class="navbar navbar-expand-lg fixed-top colorFondoAzul">
             <div class="container-fluid">
-              <a class="navbar-brand" href="#">
-                <img src="./assets/img/Boca_Logo2.png" alt="Logo">
-              </a>
-              <div>
-                <img src="./assets/img/Copas.png" alt="Copas">
-              </div>
-              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-              </button>
-              <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                <ul class="navbar-nav me-auto mb-2 mb-lg-0 w-100 justify-content-end">
-                  <li class="nav-item">
-                    <a class="nav-link active colorAmarillo" aria-current="page" href="#">Inicio</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link colorAmarillo" href="./pages/fixture.html">Fixture</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link colorAmarillo" href="./pages/tienda.html">Tienda</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link colorAmarillo" href="./pages/galeria.html">Galeria</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link colorAmarillo" href="./pages/contacto.html">Contacto</a>
-                  </li>
-                </ul>
-              </div>
+                <a class="navbar-brand" href="#">
+                    <img src="./assets/img/Boca_Logo2.png" alt="Logo">
+                </a>
+                <div>
+                    <img src="./assets/img/Copas.png" alt="Copas">
+                </div>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0 w-100 justify-content-end">
+                        <li class="nav-item">
+                            <a class="nav-link active colorAmarillo" aria-current="page" href="#">Inicio</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link colorAmarillo" href="./pages/fixture.html">Fixture</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link colorAmarillo" href="./pages/tienda.html">Tienda</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link colorAmarillo" href="./pages/galeria.html">Galeria</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link colorAmarillo" href="./pages/contacto.html">Contacto</a>
+                        </li>
+                    </ul>
+                </div>
             </div>
-          </nav>
+        </nav>
     </header>
-    <main class="padding-top-120">
-        <section class="fuenteRobotoBold">
-            <div class="centrarTitulo">
-                <h1>Ultimas Noticias</h1>
+    <main class="container padding-top-120">
+        <section>
+            <div class="text-center mt-4">
+                <h1 class="fuenteRobotoBold colorFondoAzul letraBlanca">Ultimas Noticias</h1>
             </div>
         </section>
-        <article class="noticia">
-            <header>
-                <div>
-                    <h1 class="fuenteRobotoBold">Almirón probó un equipo pensando en Almagro</h1>
-                    <h2 class="fuentePtSansRegular">El DT ensayó esta mañana con el posible once</h2>
-                </div>
-            </header>
-            <main>
-                <section class="seccionImg">
-                    <div class="contenedorImg">
-                        <img src="./assets/img/Jorge-Almiron-Boca--780x470_PNG.png" alt="AlmironAlmagro"
-                            class="propiedadesImg" loading="lazy">
-                    </div>
-                </section>
-                <section>
-                    <div class="boxNoticia">
-                        <!--TODO: Poner nombres en negrita-->
-                        <p class="fuenteArimoMedium">Parados en un 4-4-2, la formación fue: Sergio Romero; Marcelo
-                            Weigandt, Nicolás Figal, Marcos Rojo,
-                            Frank Fabra; Ezequiel Bullaude; Guillermo Fernández, Ezequiel Fernández, Lucas Janson;
-                            Exequiel
-                            Zeballos y Darío Benedetto.</p>
-                    </div>
-                </section>
-            </main>
-        </article>
-        <article class="noticia">
-            <header>
-                <div>
-                    <h1 class="fuenteRobotoBold">Boca comenzó la Copa de la Liga con el pie derecho</h1>
-                </div>
-            </header>
-            <main>
-                <section class="seccionImg">
-                    <div class="contenedorImg">
-                        <img src="./assets/img/Boca-Platense.png" alt="BocaPlatense" class="propiedadesImg" loading="lazy">
-                    </div>
-                </section>
-                <section>
-                    <div class="boxNoticia">
-                        <!--TODO: Poner nombres en negrita-->
-                        <p class="fuenteArimoMedium">En su debut en la Copa de la Liga, Boca venció 3-1 a Platense en la
-                            Bombonera con goles de
-                            <span>Zeballos, Cavani y Medina</span>. Morgantini descontó para la visita.</p>
-                    </div>
-                </section>
-            </main>
-        </article>
+        <section class="row">
+            <div class="col-sm-12 col-md-8 mt-4">
+                <img class="w-100" src="./assets/img/convocados.webp" alt="Convocados">
+            </div>
+            <div class="col-sm-12 col-md-4 mt-4">
+                <h2 class="fuentePtSansBold">Los convocados de Boca para ir a Brasil</h2>
+                <h3 class="fuenteMontserrat">El DT decidió que viajen todos.</h3>
+                <p class="fuenteArimoMedium">Luego de la práctica de este lunes en el predio de Ezeiza tras la derrota
+                    en el Superclásico, el DT dio a conocer quienes viajarán a Brasil. <strong>Jorge Almirón</strong>
+                    decidió concentrar
+                    a todo el plantel, incluso viajarán jugadores que no utilizará el entrenador como es el caso de
+                    Langoni por estar lesionado.</p>
+            </div>
+            <div class="col-sm-12 col-md-8 mt-4">
+                <img class="w-100"
+                    src="./assets/img/Sin-Barco-el-11-que-probo-Almiron-pensando-en-Palmeiras-780x470.webp"
+                    alt="SinBarco">
+            </div>
+            <div class="col-sm-12 col-md-4 mt-4">
+                <h2 class="fuentePtSansBold">Sin Barco: el 11 que probó Almirón pensando en Palmeiras</h2>
+                <h3 class="fuenteMontserrat">El DT ensayó por primera vez con el posible equipo.</h3>
+                <p class="fuenteArimoMedium">El 11 que probó Almirón pensando en Palmeiras:
+                    <strong>Sergio Romero</strong> en el arco. Linea de cuatro en el fondo con <strong>Lucas Blondel,
+                        Nicolás Figal, Marcos Rojo
+                        y Frank Fabra</strong>, algo que se preveía. En la mitad de la cancha, estuvieron
+                    <strong>Cristian Medina, Guillermo
+                        ‘Pol’ Fernández y Ezequiel ‘Equi’ Fernández</strong>. Mientras que arriba, <strong>Luis
+                        Advíncula y Lucas Janson</strong>
+                    acompañaron a <strong>Edinson Cavani</strong>.
+                </p>
+            </div>
+            <div class="col-sm-12 col-md-8 mt-4">
+                <img class="w-100" src="./assets/img/pensando-jueves.webp" alt="Jueves">
+            </div>
+            <div class="col-sm-12 col-md-4 mt-4">
+                <h2 class="fuentePtSansBold">"Estamos pensando en el jueves": Almirón le restó importancia a la derrota
+                </h2>
+                <h3 class="fuenteMontserrat">El DT se enfoca en la semifinal de la Libertadores.</h3>
+                <p class="fuenteArimoMedium"><strong>Boca cayó 2-0 en La Bombonera</strong> ante River en una nueva edición del
+                    Superclásico del fútbol argentino. Con un polémico arbitraje desde la previa, el DT de Boca no dejó
+                    pasar la oportunidad de marcar como el juez inclinó la cancha para los de Núñez.
+
+                    <strong>"¿Qué puedo decir?</strong> Se puede ver como excusa todo, pero es muy difícil jugar jueves y domingo a esta
+                    hora, es la realidad. Ya lo habíamos dicho, pero bueno", comenzó la conferencia de prensa <strong>Jorge Almirón</strong>.
+                </p>
+            </div>
+        </section>
         <!--TODO: agregar banners separadores como aside?-->
     </main>
-    <footer class="imagenFooter footer">
-        <p>&copy; Copyright 2023 - Desarrollado por FB6</p>
-        <div class="wsp">
-            <a href="https://wa.me/5491161523353" target="_blank">
-                <i class="fa-brands fa-whatsapp iconoWsp"></i>
-            </a>
-        </div>
+    <footer class=" container-fluid imagenFooter footer mt-4">
+        <div class="row">
+            <div class="col-sm-12 col-md-4">
+                <a href="https://wa.me/5491161523353" target="_blank">
+                    <i class="fa-brands fa-whatsapp icono"></i>
+                </a>
+            </div>
+            <div class="col-sm-12 col-md-4">
+                <a href="https://www.instagram.com/facueborda/" target="_blank">
+                    <i class="fab fa-instagram icono"></i>
+                </a>
+            </div>
+            <div class="col-sm-12 col-md-4">
+                <a href="https://wa.me/5491161523353" target="_blank">
+                    <i class="fab fa-twitter icono"></i>
+                </a>
+            </div>
+        </div>   
     </footer>
     <script src="./js/bootstrap.bundle.min.js"></script>
 </body>

@@ -1,10 +1,12 @@
+/*Personalizacion de bootstrap, fuentes, colores propios*/
+
 @font-face {
     font-family: "Roboto Condensed Bold";
     src: url("../assets/fonts/RobotoCondensed-Bold.ttf");
 }
 @font-face {
-    font-family: "PTSans Regular";
-    src: url("../assets/fonts/PTSans-Regular.ttf");
+    font-family: "PTSans Bold";
+    src: url("../assets/fonts/PTSans-Bold.ttf");
 }
 
 @font-face {
@@ -17,31 +19,38 @@
     src: url("../assets/fonts/Arimo-Bold.ttf");
 }
 
+@font-face {
+    font-family: "Montserrat Light";
+    src: url("../assets/fonts/Montserrat-VariableFont_wght.ttf");
+}
+
 *{ /*Reseteo*/
     Margin: 0;
     Padding: 0;
     Box-sizing: border-box;
 }
 
-.fuenteRobotoBold{
+.fuenteRobotoBold{/*h1*/
     font-family: "Roboto Condensed Bold", sans-serif;
     font-size: 2.5rem;
 }
 
-.fuentePtSansRegular{
-    font-family: "PTSans Regular", sans-serif;
+.fuentePtSansBold{/*h2*/
+    font-family: "PTSans Bold", sans-serif;
     font-size: 1.5rem;
 }
 
-.fuenteArimoMedium{
+.fuenteArimoMedium{ /*parrafos*/
     font-family: "Arimo Medium", sans-serif;
     font-size: 1rem;
 }
 
-.fuenteArimoBold{
-    font-family: "Arimo Bold", sans-serif;
-    font-size: 1.5rem;
+.fuenteMontserrat{ /*h3*/
+    font-family: "Montserrat Light", sans-serif;
+    font-size: 14px;
 }
+
+
 
 .colorAmarillo{
     color: rgb(231, 174, 11);
@@ -50,6 +59,10 @@
 
 .colorFondoAzul{
     background-color: rgb(0, 29, 77);
+}
+
+.letraBlanca{
+    color: white;
 }
 
 .padding-top-120{
@@ -64,38 +77,6 @@
 .navbar-toggler-icon{
     background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='rgba%28231, 174, 11, 0.55%29' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
 }
-    
-/*.header{
-    display: flex;
-    background-color: rgb(0, 29, 77);
-    position: sticky;
-    top: 0;
-    height: 100px;
-    align-items: center;
-    justify-content: space-between;
-    .header__ContenedorLogo{
-        height: 100px;
-        width: 100px; 
-        object-fit: cover;
-    }
-    .header__Nav{
-        list-style: none;
-        text-align: right;
-        .header__Nav__Li{ 
-            display: inline-block;
-            margin-top: 10px;
-            margin-bottom: 0px;
-            margin-left: 20px;
-            margin-right: 20px;
-            .header__Nav__Li__Link{ 
-                text-decoration: none;
-                color: rgb(231, 174, 11);
-            
-                
-            }
-        }
-    }
-}*/
 
 .centrarTitulo{
     height: 50%;
@@ -104,33 +85,10 @@
     text-align: center;
 }
 
-.noticia{
-    display: flex;
-    flex-direction: column;
-    justify-content: space-around;
-    margin-bottom: 20px;
-}
-
-.boxNoticia{
-    width: 60%;
-}
-
 .linkTienda{
     text-decoration: none;
     color: rgb(0, 29, 77);
 
-}
-
-.seccionImg{
-    /*background-color: gray;*/
-    width: 60%;
-    height: 85vh;
-}
-
-.contenedorImg{
-    width: 100%;
-    height: 100%;
-    
 }
 
 .propiedadesImg{
@@ -180,19 +138,10 @@
     background-size:cover;
     width: 100%;
     height: 30vh;
-    /*display: flex;
-    align-items: center;
-    justify-content: space-between;*/
 }
 
-.wsp{
-    position: fixed;
-    bottom: 20px;
-    right: 20px;
-}
-
-.iconoWsp{
-    font-size: 3rem;
+.icono{
+    font-size: 2rem;
     color: rgb(0, 29, 77);
 
 }
