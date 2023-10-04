@@ -49,17 +49,58 @@
             </div>
           </nav>
     </header>
-    <main class="padding-top-120">
-        <section>
-            <h1>Tienda Xeneize</h1>
+    <main class=" container padding-top-120">
+        <section class="text-center mt-4">
+            <h1 class="fuenteRobotoBold colorFondoAzul letraBlanca">Tienda Xeneize</h1>
         </section>
         <section>
-            <div>
+            <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-indicators">
+                  <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                  <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                  <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                </div>
+                <div class="carousel-inner">
+                  <div class="carousel-item active">
+                    <img src="../assets/img/Indumentaria.jpg" class="d-block w-100" alt="Indumentaria">
+                    <div class="carousel-caption d-none d-md-block">
+                      <h5 class="fuentePtSansBold letraBlanca">Indumentaria Xeneize</h5>
+                      <p class="fuenteMontserrat letraBlanca">Encontrá acá la nueva indumentaria de Boca al mejor precio</p>
+                      <a class="btn btn-primary estiloBotonCompra" href="https://www.adidas.com.ar/boca_juniors-hombre">Comprar</a>
+                    </div>
+                  </div>
+                  <div class="carousel-item">
+                    <img src="../assets/img/ZapasBoca.jpg" class="d-block w-100" alt="Zapatillas">
+                    <div class="carousel-caption d-none d-md-block">
+                      <h5 class="fuentePtSansBold letraNegra">Accesorios Xeneizes</h5>
+                      <p class="fuentePtSansBold letraNegra">Encontrá acá los mejores accesorios de Boca al mejor precio</p>
+                      <a class="btn btn-primary estiloBotonCompra" href="https://www.adidas.com.ar/botines%7Cmedias%7Cremeras_y_chombas-boca_juniors">Comprar</a>
+                    </div>
+                  </div>
+                  <div class="carousel-item">
+                    <img src="..." class="d-block w-100" alt="...">
+                    <div class="carousel-caption d-none d-md-block">
+                      <h5></h5> class="fuentePtSansBold letraNegra>Regalos Xeneizes</h5>
+                      <p></p> class="fuentePtSansBold letraNegra>Encontrá acá los mejores regalos de Boca al mejor precio</p>
+                      <a class="btn btn-primary estiloBotonCompra"> href="https://www.bocashop.com.ar/accesorios?O=OrderByReleaseDateDESC">Comprar</a>
+                    </div>
+                  </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Next</span>
+                </button>
+              </div>
+            <!--<div>
                 <a class="linkTienda fuenteArimoBold" href="https://www.bocashop.com.ar/">Indumentaria</a>
             </div>
-            <video autoplay loop muted> <!--TODO: Ajustar tamaño de video dentro de un box-->
+            <video autoplay loop muted> TODO: Ajustar tamaño de video dentro de un box
                 <source src="../assets/video/indumentaria-boca-2023.mp4" type="video/mp4">
-            </video>
+            </video>-->
         </section>
 
     </main>
