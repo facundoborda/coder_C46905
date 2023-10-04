@@ -49,50 +49,75 @@
             </div>
           </nav>
     </header>
-    <main class="padding-top-120">
-        <section class="fuenteRobotoBold centrarTitulo">
-            <h1>Contacto</h1>
+    <main class="container padding-top-120">
+        <section class="text-center mt-4">
+            <h1 class="fuenteRobotoBold colorFondoAzul letraBlanca">Contacto</h1>
         </section>
         <section>
-            <div class="fuentePtSansRegular">
-                <h2>Envianos tu consulta</h2>
+            <div class="row">
+                <div class="col-sm-12 col-md-6">
+                    <h2 class="fuentePtSansBold">Envianos tu consulta</h2>
+                    <form class="row g-3">
+                        <div class="col-md-6">
+                          <label for="nombre" class="form-label">Nombre</label>
+                          <input type="name" class="form-control" id="nombre" placeholder="Juan Roman" required>
+                        </div>
+                        <div class="col-md-6">
+                          <label for="apellido" class="form-label">Apellido</label>
+                          <input type="name" class="form-control" id="apellido" placeholder="Riquelme" required>
+                        </div>
+                        <div class="col-12">
+                          <label for="email" class="form-label">Correo Electrónico</label>
+                          <input type="email" class="form-control" id="email" placeholder="elultimo10@gmail.com" required>
+                        </div>
+                        <div class="col-12">
+                          <label for="mensaje" class="form-label">Mensaje</label>
+                        </div>
+                        <div class="col-12">
+                          <textarea name="mensaje" id="mensaje" cols="50" rows="10"></textarea>
+                        </div>
+                        <div class="col-12">
+                          <button type="reset" class="btn btn-primary">Restablecer</button>
+                          <button type="submit" class="btn btn-primary">Enviar</button>
+                        </div>
+                      </form>
+                    <!--<form action="./404.html" method="post">
+                        <div>
+                            <label for="nombre">Nombre y Apellido</label>
+                        </div>
+                        <div>
+                            <input type="text" name="nombre" id="nombre" placeholder="Juan Roman" required>
+                            <input type="text" name="apellido" id="apellido" placeholder="Riquelme" required>
+                        </div>
+                        <div>
+                            <label for="email">Correo Electrónico</label>
+                        </div>
+                        <div>
+                            <input type="email" name="email" id="email" placeholder="elultimo10@gmail.com" required>
+                        </div>
+                        <div>
+                            <label for="mensaje">Tu consulta</label>
+                        </div>
+                        <div>
+                            <textarea name="mensaje" id="mensaje" cols="30" rows="10"></textarea>
+                        </div>
+                        <div>
+                            <input type="reset" id="restablecer" name="restablecer" value="Restablecer">
+                        </div>
+                        <div>
+                            <input type="submit" id="enviar" name="enviar" value="Enviar">
+                        </div>
+                    </form>-->
+                </div>
+                <div class="col-sm-12 col-md-6">
+                    <h2 class="fuentePtSansBold">Acercate al club</h2>
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d210117.81451638072!2d-58.
+                    67461570791413!3d-34.627144333762715!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.
+                    1!3m3!1m2!1s0x95a334b60f4a88a3%3A0xe46a8844309a763f!2sClub%20Atl%C3%A9tico%20Boca%20Juniors!5e0!3m2!
+                    1ses!2sar!4v1693765727739!5m2!1ses!2sar" width="400" height="300" style="border:0;" allowfullscreen=""
+                    loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </div>
             </div>
-            <form action="./404.html" method="post">
-                <div>
-                    <label for="nombre">Nombre y Apellido</label>
-                </div>
-                <div>
-                    <input type="text" name="nombre" id="nombre" placeholder="Juan Roman" required>
-                    <input type="text" name="apellido" id="apellido" placeholder="Riquelme" required>
-                </div>
-                <div>
-                    <label for="email">Correo Electrónico</label>
-                </div>
-                <div>
-                    <input type="email" name="email" id="email" placeholder="elultimo10@gmail.com" required>
-                </div>
-                <div>
-                    <label for="mensaje">Tu consulta</label>
-                </div>
-                <div>
-                    <textarea name="mensaje" id="mensaje" cols="30" rows="10"></textarea>
-                </div>
-                <div>
-                    <input type="reset" id="restablecer" name="restablecer" value="Restablecer">
-                </div>
-                <div>
-                    <input type="submit" id="enviar" name="enviar" value="Enviar">
-                </div>
-
-            </form>
-        </section>
-        <section>
-            <h2>Acercate al club</h2>
-            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d210117.81451638072!2d-58.
-                67461570791413!3d-34.627144333762715!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.
-                1!3m3!1m2!1s0x95a334b60f4a88a3%3A0xe46a8844309a763f!2sClub%20Atl%C3%A9tico%20Boca%20Juniors!5e0!3m2!
-                1ses!2sar!4v1693765727739!5m2!1ses!2sar" width="400" height="300" style="border:0;" allowfullscreen=""
-                loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
         </section>
     </main>
     <footer class=" container-fluid imagenFooter mt-4 flex-column">
