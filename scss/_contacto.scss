@@ -1,0 +1,10 @@
+/*Estilos Contacto*/
+
+.btn-primary{
+    background-color: $color-principal;
+    color: $color-secundario;
+    &:hover{
+        background-color:$color-secundario;
+        color: $color-principal;
+    }
+}

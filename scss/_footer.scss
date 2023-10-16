@@ -1,0 +1,18 @@
+/*Estilos Footer*/
+
+.imagenFooter{ /*Imagen de fondo para el footer*/
+    background-color: $color-principal;
+    background-image: url(../assets/img/footer.png);
+    background-position:center;
+    background-repeat:no-repeat;
+    background-size:cover;
+    height: 30vh;
+    .redes{
+        height: 30vh;
+        .icono{
+            font-size: $fuente-grande;
+            color: rgb(0, 29, 77);
+        
+        }
+    }
+}
