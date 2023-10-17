@@ -2,6 +2,7 @@
 
 .card{
     border: 1px solid map-get($mapa-colores , color-principal);
+    background-image: linear-gradient(to right bottom, #1b00b1bf,#c8d510c6);
 }
 
 .custom-card-body {

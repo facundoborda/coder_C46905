@@ -18,6 +18,7 @@
 /*Estilos Fixture*/
 .card {
   border: 1px solid rgb(0, 29, 77);
+  background-image: linear-gradient(to right bottom, rgba(27, 0, 177, 0.7490196078), rgba(200, 213, 16, 0.7764705882));
 }
 
 .custom-card-body {
@@ -164,6 +165,11 @@
 
 .padding-top-120 {
   padding-top: 120px;
+}
+
+.colorFondo {
+  background-image: linear-gradient(to right, rgba(118, 116, 116, 0.5450980392), #ffffff);
+  background-image: linear-gradient(to right bottom, rgba(27, 0, 177, 0.7490196078), rgba(200, 213, 16, 0.7764705882));
 }
 
 * { /*Reseteo*/
