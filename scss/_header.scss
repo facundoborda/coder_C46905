@@ -2,7 +2,7 @@
 
 .navbar-toggler{
     border-width: 2px;
-    border-color: $color-secundario;
+    border-color: map-get($mapa-colores , color-secundario);
 }
 
 .navbar-toggler-icon{
@@ -10,7 +10,6 @@
 }
 
 .nav-item:hover{ /*TODO: hacer que el hover sea todo a lo alto*/
-    background-color: $color-secundario;
-    color: $color-principal;
-    height: 100%;
+    background-color: map-get($mapa-colores , color-secundario);
+    color: map-get($mapa-colores , color-principal);
 }

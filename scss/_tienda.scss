@@ -15,10 +15,10 @@
 }
 
 .estiloBotonCompra{
-    background-color: $color-principal;
-    border-color: $color-secundario;
+    background-color: map-get($mapa-colores , color-principal);
+    border-color: map-get($mapa-colores , color-secundario);
     &:hover{
-        background-color: $color-secundario;
-        border-color: $color-principal;
+        background-color: map-get($mapa-colores , color-secundario);
+        border-color: map-get($mapa-colores , color-principal);
     }
 }

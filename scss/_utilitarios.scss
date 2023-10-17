@@ -44,21 +44,21 @@
 
 
 .colorAmarillo{
-    color: $color-secundario;
+    color: map-get($mapa-colores , color-secundario);
     font-size: $fuente-pequena ;
 }
 
 .colorFondoAzul{
-    background-color: $color-principal;
+    background-color: map-get($mapa-colores , color-principal);
 }
 
 .letraBlanca{
-    color: white;
+    color:map-get($mapa-colores , color-blanco);
     font-weight: bold;
 }
 
 .letraNegra{
-    color: black;
+    color: map-get($mapa-colores , color-negro);
     font-weight: bold;
 }
 

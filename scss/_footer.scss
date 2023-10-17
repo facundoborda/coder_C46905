@@ -1,7 +1,7 @@
 /*Estilos Footer*/
 
 .imagenFooter{ /*Imagen de fondo para el footer*/
-    background-color: $color-principal;
+    background-color: map-get($mapa-colores , color-principal);
     background-image: url(../assets/img/footer.png);
     background-position:center;
     background-repeat:no-repeat;
@@ -11,7 +11,7 @@
         height: 30vh;
         .icono{
             font-size: $fuente-grande;
-            color: rgb(0, 29, 77);
+            color: map-get($mapa-colores , color-principal);
         
         }
     }
