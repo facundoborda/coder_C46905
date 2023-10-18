@@ -17,13 +17,16 @@
     <!--Estilos y Bootstrap-->
     <link rel="stylesheet" href="../css/bootstrap.min.css">
     <link rel="stylesheet" href="../css/estilos.css">
+    <!--Animaciones-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
 </head>
 
 <body class="colorFondo">
     <header> <!--Cabecera de mi sitio web-->
         <nav class="navbar navbar-expand-lg fixed-top colorFondoAzul">
             <div class="container-fluid">
-                <a class="navbar-brand" href="../index.html">
+                <a class="navbar-brand animate__animated animate__fadeInLeft" href="../index.html">
                     <img src="../assets/img/boca_Logo2.png" alt="Logo">
                 </a>
                 <div>
@@ -65,32 +68,12 @@
         <section>
             <div class="row mt-4">
                 <div class="col-sm-6">
-                    <div class="card">
+                    <div class="card" data-aos="fade-right">
                         <div class="custom-card-body">
                             <h3 class="card-title text-center fuenteArimoBold mt-1">Próximos Partidos</h3>
                         </div>
                     </div>
-                    <div class="card">
-                        <div class="card-body">
-                            <img class="float-start w-20" src="../assets/img/palmeiras-128x128.webp" alt="Palmeiras">
-                            <img class="float-end w-20" src="../assets/img/escudo-Boca-68-estrellas-128x128.webp" alt="Boca">
-                            <p class="card-text text-center fw-bold fuenteMontserrat">Jueves 5 de Octubre de 2023</p>
-                            <h3 class="card-title text-center">21:30</h3>
-                            <p class="card-text text-center fw-bold fuenteMontserrat">Allianz Parque</p>
-                            <p class="card-text text-center fw-bold fuenteMontserrat">Palmeiras vs Boca – Libertadores 2023 – Semifinal – Vuelta</p>
-                        </div>
-                    </div>
-                    <div class="card">
-                        <div class="card-body">
-                            <img class="float-start w-20" src="../assets/img/belgrano-128x128.webp" alt="Belgrano">
-                            <img class="float-end w-20" src="../assets/img/escudo-Boca-68-estrellas-128x128.webp" alt="Boca">
-                            <p class="card-text text-center fw-bold fuenteMontserrat">Martes 10 de Octubre de 2023</p>
-                            <h3 class="card-title text-center">20:00</h3>
-                            <p class="card-text text-center fw-bold fuenteMontserrat">Mario Alberto Kempes</p>
-                            <p class="card-text text-center fw-bold fuenteMontserrat">Belgrano vs Boca - Copa de la Liga 2023 - Fecha 8</p>
-                        </div>
-                    </div>
-                    <div class="card">
+                    <div class="card" data-aos="fade-right">
                         <div class="card-body">
                             <img class="float-start w-20" src="../assets/img/escudo-Boca-68-estrellas-128x128.webp" alt="Boca">
                             <img class="float-end w-20" src="../assets/img/escudo-Union-112x128.webp" alt="Union">
@@ -100,14 +83,94 @@
                             <p class="card-text text-center fw-bold fuenteMontserrat">Boca vs Unión - Copa de la Liga 2023 - Fecha 9</p>
                         </div>
                     </div>
+                    <div class="card" data-aos="fade-right">
+                        <div class="card-body">
+                            <img class="float-start w-20" src="../assets/img/Racing-128x128.webp" alt="Racing">
+                            <img class="float-end w-20" src="../assets/img/escudo-Boca-68-estrellas-128x128.webp" alt="Boca">
+                            <p class="card-text text-center fw-bold fuenteMontserrat">Martes 24 de Octubre de 2023</p>
+                            <h3 class="card-title text-center">19:00</h3>
+                            <p class="card-text text-center fw-bold fuenteMontserrat">Estadio Presidente Perón</p>
+                            <p class="card-text text-center fw-bold fuenteMontserrat">Racing vs Boca - Copa de la Liga 2023 - Fecha 10</p>
+                        </div>
+                    </div>
+                    <div class="card" data-aos="fade-right">
+                        <div class="card-body">
+                            <img class="float-start w-20" src="../assets/img/escudo-Boca-68-estrellas-128x128.webp" alt="Boca">
+                            <img class="float-end w-20" src="../assets/img/Estudiantes-128x128.webp" alt="Estudiantes">
+                            <p class="card-text text-center fw-bold fuenteMontserrat">Sábado 28 de Octubre de 2023</p>
+                            <h3 class="card-title text-center fuenteMontserrat">19:00</h3>
+                            <p class="card-text text-center fw-bold fuenteMontserrat">La Bombonera</p>
+                            <p class="card-text text-center fw-bold fuenteMontserrat">Boca vs Estudiantes - Copa de la Liga 2023 - Fecha 11</p>
+                        </div>
+                    </div>
+                    <div class="card" data-aos="fade-right">
+                        <div class="card-body">
+                            <img class="float-start w-20" src="../assets/img/escudo-Boca-68-estrellas-128x128.webp" alt="Boca">
+                            <img class="float-end w-20" src="../assets/img/Fluminense_FC_escudo-111x128.webp" alt="Fluminense">
+                            <p class="card-text text-center fw-bold fuenteMontserrat">Sábado 4 de Noviembre de 2023</p>
+                            <h3 class="card-title text-center fuenteMontserrat">17:00</h3>
+                            <p class="card-text text-center fw-bold fuenteMontserrat">Maracaná</p>
+                            <p class="card-text text-center fw-bold fuenteMontserrat">Boca vs Fluminense - Copa Libertadores - Final</p>
+                        </div>
+                    </div>
+                    <div class="card" data-aos="fade-right">
+                        <div class="card-body">
+                            <img class="float-start w-20" src="../assets/img/San-Lorenzo-128x128.webp" alt="San Lorenzo">
+                            <img class="float-end w-20" src="../assets/img/escudo-Boca-68-estrellas-128x128.webp" alt="Boca">
+                            <p class="card-text text-center fw-bold fuenteMontserrat">Domingo 5 de Noviembre de 2023</p>
+                            <h3 class="card-title text-center">No definido</h3>
+                            <p class="card-text text-center fw-bold fuenteMontserrat">Pedro Bidegain</p>
+                            <p class="card-text text-center fw-bold fuenteMontserrat">San Lorenzo vs Boca - Copa de la Liga 2023 - Fecha 12</p>
+                        </div>
+                    </div>
+                    <div class="card" data-aos="fade-right">
+                        <div class="card-body">
+                            <img class="float-start w-20" src="../assets/img/escudo-Boca-68-estrellas-128x128.webp" alt="Boca">
+                            <img class="float-end w-20" src="../assets/img/Newells-128x128.webp" alt="Newells">
+                            <p class="card-text text-center fw-bold fuenteMontserrat">Domingo 12 de Noviembre de 2023</p>
+                            <h3 class="card-title text-center fuenteMontserrat">No Definido</h3>
+                            <p class="card-text text-center fw-bold fuenteMontserrat">La Bombonera</p>
+                            <p class="card-text text-center fw-bold fuenteMontserrat">Boca vs Newells - Copa de la Liga 2023 - Fecha 13</p>
+                        </div>
+                    </div>
                 </div>
                 <div class="col-sm-6">
-                    <div class="card">
+                    <div class="card" data-aos="fade-left">
                         <div class="custom-card-body">
                             <h3 class="card-title text-center fuenteArimoBold mt-1">Últimos Resultados</h3>
                         </div>
                     </div>
-                    <div class="card">
+                    <div class="card" data-aos="fade-left">
+                        <div class="card-body">
+                            <img class="float-start w-20" src="../assets/img/Escudo-Talleres-Córdoba-128x128.webp" alt="Talleres">
+                            <img class="float-end w-20" src="../assets/img/escudo-Boca-68-estrellas-128x128.webp" alt="Boca">
+                            <p class="card-text text-center fw-bold fuenteMontserrat">Domingo 15 de Octubre de 2023</p>
+                            <h3 class="card-title text-center">(1) 1 - 1 (4)</h3>
+                            <p class="card-text text-center fw-bold fuenteMontserrat">Malvinas Argentinas</p>
+                            <p class="card-text text-center fw-bold fuenteMontserrat">Talleres vs Boca - Copa Argentina - Cuartos de Final</p>
+                        </div>
+                    </div>
+                    <div class="card" data-aos="fade-left">
+                        <div class="card-body">
+                            <img class="float-start w-20" src="../assets/img/belgrano-128x128.webp" alt="Belgrano">
+                            <img class="float-end w-20" src="../assets/img/escudo-Boca-68-estrellas-128x128.webp" alt="Boca">
+                            <p class="card-text text-center fw-bold fuenteMontserrat">Martes 10 de Octubre de 2023</p>
+                            <h3 class="card-title text-center">4 - 3</h3>
+                            <p class="card-text text-center fw-bold fuenteMontserrat">Mario Alberto Kempes</p>
+                            <p class="card-text text-center fw-bold fuenteMontserrat">Belgrano vs Boca - Copa de la Liga 2023 - Fecha 8</p>
+                        </div>
+                    </div>
+                    <div class="card" data-aos="fade-left">
+                        <div class="card-body">
+                            <img class="float-start w-20" src="../assets/img/palmeiras-128x128.webp" alt="Palmeiras">
+                            <img class="float-end w-20" src="../assets/img/escudo-Boca-68-estrellas-128x128.webp" alt="Boca">
+                            <p class="card-text text-center fw-bold fuenteMontserrat">Jueves 5 de Octubre de 2023</p>
+                            <h3 class="card-title text-center">(2) 1 - 1 (4)</h3>
+                            <p class="card-text text-center fw-bold fuenteMontserrat">Allianz Parque</p>
+                            <p class="card-text text-center fw-bold fuenteMontserrat">Palmeiras vs Boca – Libertadores 2023 – Semifinal – Vuelta</p>
+                        </div>
+                    </div>
+                    <div class="card" data-aos="fade-left">
                         <div class="card-body">
                             <img class="float-start w-20" src="../assets/img/escudo-Boca-68-estrellas-128x128.webp" alt="Boca">
                             <img class="float-end w-20" src="../assets/img/escudo-River-Plate-2022-128x128.webp" alt="Riber">
@@ -117,7 +180,7 @@
                             <p class="card-text text-center fw-bold fuenteMontserrat">Boca vs River - Copa de la Liga 2023 - Fecha 7</p>
                         </div>
                     </div>
-                    <div class="card">
+                    <div class="card" data-aos="fade-left">
                         <div class="card-body">
                             <img class="float-start w-20" src="../assets/img/escudo-Boca-68-estrellas-128x128.webp" alt="Boca">
                             <img class="float-end w-20" src="../assets/img/palmeiras-128x128.webp" alt="Palmeiras">
@@ -127,7 +190,7 @@
                             <p class="card-text text-center fw-bold fuenteMontserrat">Boca vs Palmeiras – Libertadores 2023 – Semifinal – ida</p>
                         </div>
                     </div>
-                    <div class="card">
+                    <div class="card" data-aos="fade-left">
                         <div class="card-body">
                             <img class="float-start w-20" src="../assets/img/escudo-Boca-68-estrellas-128x128.webp" alt="Boca">
                             <img class="float-end w-20" src="../assets/img/lanús-128x128.webp" alt="Lanus">
@@ -166,6 +229,10 @@
         </div>   
     </footer>
     <script src="../js/bootstrap.bundle.min.js"></script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
 </body>
 
 </html>
