@@ -97,6 +97,10 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  transition: transform 0.5s ease-in-out;
+}
+.galeria .cajasGaleria:hover {
+  transform: scale(1.1);
 }
 .galeria .cajasGaleria img {
   width: 100%;
