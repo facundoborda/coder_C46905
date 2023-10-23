@@ -4,15 +4,89 @@
         <!--Configuraciones del navegador-->
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Boquita | Tienda</title>
+        <title>Error 404 | Boquita</title>
         <script src="https://kit.fontawesome.com/7f3c0b8352.js" crossorigin="anonymous"></script>
         <!--favicon boquita-->
         <link rel="icon" href="../favicon.ico" type="image/png">
         <!--Estilos y Bootstrap-->
         <link rel="stylesheet" href="../css/bootstrap.min.css">
         <link rel="stylesheet" href="../css/estilos.css">
+        <!--Animaciones-->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
     </head>
 <body class="colorFondo">
-    
+    <header> <!--Cabecera de mi sitio web-->
+        <nav class="navbar navbar-expand-lg fixed-top colorFondoAzul">
+            <div class="container-fluid">
+              <a class="navbar-brand animate__animated animate__fadeInLeft" href="../index.html">
+                <img src="../assets/img/Boca_Logo2.png" alt="Logo">
+              </a>
+              <div>
+                <img src="../assets/img/Copas.png" alt="Copas">
+              </div>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0 w-100 justify-content-end">
+                  <li class="nav-item">
+                    <a class="nav-link colorAmarillo" href="../index.html">Inicio</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link colorAmarillo" href="./fixture.html">Fixture</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link colorAmarillo" href="./tienda.html">Tienda</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link colorAmarillo" href="./galeria.html">Galeria</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link active colorAmarillo" aria-current="page" href="#">Contacto</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </nav>
+    </header>
+    <main class="container padding-top-120">
+        <div class="row">
+            <div class="col-sm-12 col-md-6 d-flex flex-column justify-content-center">
+                <h1 class="fuenteRobotoBold ">ERROR 404</h1>
+                <h2 class="fuentePtSansBold ">Parece que te fuiste a la B</h2>
+                <h3 class="fuenteMontserrat ">Para volver a Primera hacé click sobre el escudo de Boquita</h3>
+                <h4 class="fuenteArimoMedium ">El que nunca descendió</h4>
+            </div>
+            <div class="col-sm-12 col-md-6 caja404">
+                <img src="../assets/img/hincha-river.webp" alt="Hincha de River llorando">
+            </div>
+        </div>
+        
+    </main>
+    <footer class=" container-fluid imagenFooter mt-4 flex-column">
+        <div class="d-flex justify-content-evenly align-items-end redes pb-2">
+            <div>
+                <a href="https://wa.me/5491161523353" target="_blank">
+                    <i class="fa-brands fa-whatsapp icono"></i>
+                </a>
+            </div>
+            <div>
+                <a href="https://www.instagram.com/bocajrsoficial/" target="_blank">
+                    <i class="fab fa-instagram icono"></i>
+                </a>
+            </div>
+            <div>
+                <a href="https://twitter.com/BocaJrsOficial" target="_blank">
+                    <i class="fab fa-twitter icono"></i>
+                </a>
+            </div>
+            <div>
+                <a href="https://twitter.com/BocaJuniors" target="_blank">
+                    <i class="fab fa-facebook icono"></i>
+                </a>
+            </div>
+        </div>   
+    </footer>
+    <script src="../js/bootstrap.bundle.min.js"></script>
 </body>
 </html>
