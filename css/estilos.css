@@ -66,6 +66,7 @@
 
 /*Estilos Footer*/
 .imagenFooter { /*Imagen de fondo para el footer*/
+  position: relative;
   background-color: rgb(0, 29, 77);
   background-image: url(../assets/img/footer.png);
   background-position: center;
@@ -77,8 +78,18 @@
   height: 30vh;
 }
 .imagenFooter .redes .icono {
-  font-size: 2.5rem;
+  font-size: 1.5rem;
   color: rgb(0, 29, 77);
+}
+
+.texto-superior {
+  position: absolute;
+  top: 20px; /* Ajusta la posición vertical según tus necesidades */
+  left: 50%; /* Centrar el texto horizontalmente */
+  transform: translateX(-50%);
+  padding: 10px;
+  z-index: 10;
+  color: rgb(231, 174, 11);
 }
 
 /*Estilos Galería*/
